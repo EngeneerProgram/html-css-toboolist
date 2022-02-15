@@ -22,30 +22,85 @@ header{
     
 }
 
-.bottone1, .bottone2{
+.bottone1, .bottone2, .new_task_button{
     margin-bottom:50rem;
     margin:10px;
     border-radius: 30px;
-    padding:5px 20px;
+    padding:8px 20px;
     cursor:pointer;
 }
 
-.bottone1{
+.bottone1, .new_task_button{
     background-color: rgb(82, 161, 197);
     color:white;
 }
 .bottone2{
     color:grey;
 }
+
+.button_gol{
+    padding:8px 20px;
+    cursor:pointer;
+    margin:10px;
+    border-radius: 30px;
+    background-color: rgba(182, 98, 207, 0.644);
+    color:white;
+    
+}
+.button_recruiting{
+    padding:8px 20px;
+    cursor:pointer;
+    margin:10px;
+    border-radius: 30px;
+    background-color: rgb(68, 153, 68);
+    color:white;
+}
+.button_mobile{
+    margin-bottom:50rem;
+    margin:10px;
+    border-radius: 30px;
+    padding:8px 20px;
+    color:white;
+    background-color: rgb(218, 165, 68);
+}
 .main_windows{
    width: 50%;
-   height: 80vh;
+   height: 100%;
    background-color: #fff;
    margin-top: 70px;
    margin-left:450px;
    padding:20px;
    
-   
+}
+
+
+.titolo{
+    padding:2rem;
+    font-size: 20px;
+    color:rgb(73, 67, 67);
+}
+.titolo2 , .titolo3{
+    margin-top:6rem;
+    
+}
+h4{
+    margin-left: 7px;
+    padding: 20px;
+}
+.new_task_button{
+   display:inline;
    
 }
 
+.spanV{
+    border:1px solid green;
+    border-radius: 50%;
+    color:green;
+}
+
+
+.spanX{
+    border:1px solid red;
+    border-radius: 50%;
+    color:red;
+}
