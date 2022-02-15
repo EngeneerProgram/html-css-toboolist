@@ -62,6 +62,7 @@ header{
     padding:8px 20px;
     color:white;
     background-color: rgb(218, 165, 68);
+    cursor:pointer;
 }
 .main_windows{
    width: 50%;
@@ -71,6 +72,25 @@ header{
    margin-left:450px;
    padding:20px;
    
+}
+
+.button_sales{
+    margin-bottom:50rem;
+    margin:10px;
+    border-radius: 30px;
+    padding:8px 20px;
+    background-color: green;
+    color:white;
+    cursor:pointer;
+}
+
+.button_website{
+    margin-bottom:50rem;
+    margin:10px;
+    border-radius: 30px;
+    padding:8px 20px;
+    background-color: 	#FF69B4;
+    cursor:pointer;
 }
 
 
@@ -103,4 +123,9 @@ h4{
     border:1px solid red;
     border-radius: 50%;
     color:red;
+}
+
+#footer h5{
+    width: 100%;
+    align-content: center;
 }
