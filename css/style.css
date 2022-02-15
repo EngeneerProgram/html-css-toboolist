@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(226, 226, 226);
+}
+header{
+    width: 100%;
+    padding:20px;
+    background-color: #fff;;
+    }
+
+  
+
+.logo{
+    width: 300px;
+    
+    
+}
+
+.main_windows{
+   width: 50%;
+   height: 80vh;
+   background-color: #fff;
+   margin-top: 70px;
+   margin-left:450px;
+   border-radius:50px;
+}
+
